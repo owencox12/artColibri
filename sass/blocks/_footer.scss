@@ -1,0 +1,89 @@
+.footer {
+    min-height: 300px;
+    padding-bottom: 30px;
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        &_second {
+            margin-left: 252px;
+        }
+        &_title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 130%;
+            color: #000000;
+        }
+        &_adress {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 130%;
+            color: #000000;
+            margin-top: 25px;
+        }
+        &_text {
+                        
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 130%;
+            color: #000000;
+            margin-top: 20px;
+            span {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 130%;
+                color: #000000;
+            }
+        }
+        &_contacts {
+            &_link {
+                margin-top: 25px;
+                a {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 70px;
+                    line-height: 130%;
+                    color: #000000;
+                    text-decoration: none;
+                }
+            }
+        }
+        &_icons {
+            display: flex;
+            align-items: center;
+            margin-top: 33px;
+            &_icon {
+                text-align: center;
+                cursor: pointer;
+                &_descr {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 130%;
+                    color: #000000;
+                }
+                &:nth-child(2) {
+                    margin-left: 20px;
+                }
+                svg {
+                    width: 44px;
+                    height: 44px;
+                    &:hover {
+                        fill: gray;
+                        transition: all .3s;
+                    }
+                }
+            }
+        }
+    }
+}

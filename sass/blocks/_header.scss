@@ -1,0 +1,140 @@
+.header {
+    min-height: 167px;
+    background: #fff;
+    &__burger_list {
+        display: none;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        &_menu {
+            &_list {
+                display: flex;
+                align-items: center;
+                &_type {
+                    margin: 0 20px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    a {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 130%;
+                        color: #000000;
+                        text-decoration: none;
+                        &:hover {
+                            transition: all .3s;
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+        &_form {
+            input {
+                width: 443px;
+                height: 49px;
+                border: 2px solid #A9A9A9;
+                border-radius: 9px;
+                padding-left: 38px;
+            }
+        }
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        &_burger {
+            display: none;
+        }
+        &_logo {
+            display: none;
+        }
+        &_item {
+            &_list {
+                display: flex;
+                &_type {
+                    padding: 15px;
+                    &:hover {
+                        background: gray;
+                        transition: all .3s;
+                        a {
+                            color: #fff;
+                        }
+                    }
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    a {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #000000;
+                        text-decoration: none;
+                    }
+                }
+            }
+            &_number {
+                &_select {
+                    border: none;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 130%;
+                    color: #000000;
+                    &_option {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 130%;
+                        color: #000000;
+                    }
+                }
+            }
+            &_adress {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 130%;
+                color: #000000;
+                span {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 130%;
+                    color: #000000;
+                }
+            }
+            &_second {
+                display: flex;
+                align-items: center;
+                &_margin {
+                    margin: 0 25px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+            &_icons {
+                display: flex;
+                &_icon {
+                    margin: 0 9px;
+                }
+            }
+        }
+    }
+}

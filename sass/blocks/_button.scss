@@ -1,0 +1,57 @@
+.button {
+    &--header {
+        width: 154px;
+        height: 49px;
+        background: #F188F2;
+        border: 2px solid #F188F2;
+        border-radius: 5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &--promo {
+        width: 241px;
+        height: 82px;
+        background: #FFFFFF;
+        border-radius: 13px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 130%;
+        color: #2D2D2D;
+        border: none;
+
+    }
+    &--promoSecond {
+        width: 235px;
+        height: 82px;
+        border: 2px solid #FFFFFF;
+        border-radius: 13px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 130%;
+        background: none;
+        color: #FFFFFF;
+    }
+    &--discount {
+        width: 473px;
+        height: 75.44px;
+        border: 2.39494px solid #FFFFFF;
+        border-radius: 25.1468px;
+        background: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28.7392px;
+        line-height: 120%;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+}

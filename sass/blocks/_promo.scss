@@ -1,0 +1,40 @@
+.promo {
+    min-height: 600px;
+    background: #A1E2EB;
+    position: relative;
+    &__image {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 130%;
+        color: #FFFFFF;
+        padding-top: 130px;
+        position: relative;
+        z-index: 10;
+        span {
+            font-size: 63px;
+        }
+
+    }
+    &__buttons {
+        display: flex;
+        margin-top: 60px;
+        position: relative;
+        z-index: 10;
+        &_button {
+            margin: 0 20px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

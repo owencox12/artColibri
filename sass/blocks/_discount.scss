@@ -1,0 +1,49 @@
+.discount {
+    min-height: 476px;
+    background: linear-gradient(262.69deg, #CA4ACB -0.43%, #F088F2 104.36%);
+    position: relative;
+    padding-bottom: 40px;
+    &__titles {
+        display: flex;
+        &_link {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            letter-spacing: 0.03em;
+            color: #000000;
+        }
+    }
+    &__image {
+        position: absolute;
+        left: 0;
+        top: -7%;
+    }
+    &__title {
+        text-align: right;
+        padding-top: 44px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 120%;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        span {
+            font-size: 63px;
+        }
+
+    }
+    &__form {
+        text-align: right;
+        input {
+            width: 473px;
+            height: 75.44px;
+            background: #FFFFFF;
+            border-radius: 25.1468px;
+            border: none;
+            padding-left: 50px;
+        }
+    }
+}
